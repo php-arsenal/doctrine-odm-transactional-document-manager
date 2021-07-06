@@ -7,7 +7,7 @@ Built upon Maciej [blog post](https://zgadzaj.com/development/mongodb/mongodb-mu
 Require with Composer
 
 ```
-composer require  php-arsenal/doctrine-odm-transactional-document-manager 
+composer require php-arsenal/doctrine-odm-transactional-document-manager 
 ```
 
 Add to `services.yaml`
@@ -24,6 +24,8 @@ We might also wrap that `publishProducts()` code in a try-catch block and call `
 
 ```php
 <?php
+
+namespace YourNamespace;
 
 use PhpArsenal\DoctrineOdmTransactionalDocumentManager\TransactionalDocumentManager;
 
