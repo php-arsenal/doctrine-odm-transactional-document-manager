@@ -31,17 +31,13 @@ use PhpArsenal\DoctrineOdmTransactionalDocumentManager\TransactionalDocumentMana
 
 class ProductManager
 {
-    protected TransactionalDocumentManager $documentManager;
- 
-    protected ObjectRepository $productRepository;
- 
-    public function __construct(TransactionalDocumentManager $documentManager)
-    {
-        $this->documentManager = $documentManager;
-        $this->productRepository = $documentManager->getRepository(Product::class);
+    public function __construct(
+        private TransactionalDocumentManager $documentManager, 
+        private ProductRepository $productRepository
+    ) {
     }
  
-    public function publishProducts()
+    public function publishProducts(): void
     {
         $products = $this->productRepository->findBy(['published' => false]);
  
