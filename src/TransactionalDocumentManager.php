@@ -1,6 +1,6 @@
 <?php
 
-namespace App\General\DoctrineExtensions;
+namespace PhpArsenal\DoctrineOdmTransactionalDocumentManager;
 
 use Doctrine\Common\EventManager;
 use Doctrine\ODM\MongoDB\Configuration;
