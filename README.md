@@ -1,4 +1,4 @@
-# doctrine-odm-transactional-document-manager
+# Doctrine ODM Transactional Document Manager
 
 Built upon Maciej [blog post](https://zgadzaj.com/development/mongodb/mongodb-multi-document-transactions-in-symfony-4-with-doctrine-and-mongodb-odm-bundle)
 
