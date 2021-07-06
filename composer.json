@@ -1,0 +1,14 @@
+{
+    "name": "php-arsenal/doctrine-odm-transactional-document-manager",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PhpArsenal\\DoctrineOdmTransactionalDocumentManager\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "doctrine/mongodb-odm-bundle": "^4.3"
+    }
+}
