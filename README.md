@@ -2,6 +2,10 @@
 
 Built upon Maciej [blog post](https://zgadzaj.com/development/mongodb/mongodb-multi-document-transactions-in-symfony-4-with-doctrine-and-mongodb-odm-bundle)
 
+[![Release](https://img.shields.io/github/v/release/php-arsenal/doctrine-odm-transactional-document-manager)](https://github.com/php-arsenal/doctrine-odm-transactional-document-manager/releases)
+[![CI](https://img.shields.io/github/workflow/status/php-arsenal/doctrine-odm-transactional-document-manager/CI)](https://github.com/php-arsenal/doctrine-odm-transactional-document-manager/actions/workflows/ci.yml)
+[![Packagist](https://img.shields.io/packagist/dt/php-arsenal/doctrine-odm-transactional-document-manager)](https://packagist.org/packages/php-arsenal/doctrine-odm-transactional-document-manager)
+
 ## Install
 
 Require with Composer
